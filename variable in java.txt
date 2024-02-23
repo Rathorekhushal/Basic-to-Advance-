@@ -1,0 +1,17 @@
+variable in java 
+In Java, variables are containers used to store data values. These data values can be of different types, such as numbers, characters, or objects. Here are the main types of variables in Java:
+
+Primitive Variables:
+
+byte: 8-bit integer value.
+short: 16-bit integer value.
+int: 32-bit integer value.
+long: 64-bit integer value.
+float: 32-bit floating-point value.
+double: 64-bit floating-point value.
+boolean: Represents true or false.
+char: 16-bit Unicode character.
+Reference Variables:
+
+Object References: References to objects of classes.
+Array References: References to arrays.
