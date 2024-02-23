@@ -1,0 +1,16 @@
+Data Type:
+
+A data type is a classification of data that specifies the type of value that a variable can hold and the operations that can be performed on that value.
+It defines the size, format, and allowable range of values for variables.
+Data types in programming languages are used to represent different types of data, such as integers, floating-point numbers, characters, etc.
+Examples of data types include int, double, char, boolean, etc.
+Data types are predefined in programming languages and determine the memory allocation and representation of data in computer memory.
+
+
+Variable:
+
+A variable is a named storage location in computer memory that can hold data.
+It is used to store and manipulate values during the execution of a program.
+Variables have a name, a data type, and a value.
+The data type of a variable specifies the type of values that the variable can hold.
+Variables are used to represent data in programs and can be assigned different values during program execution.
