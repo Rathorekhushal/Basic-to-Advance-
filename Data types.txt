@@ -1,0 +1,27 @@
+In Java, data types can be categorized into two main groups: primitive data types and reference data types.
+
+Primitive Data Types:
+
+byte: 8-bit integer data type. Range: -128 to 127.
+short: 16-bit integer data type. Range: -32,768 to 32,767.
+int: 32-bit integer data type. Range: -2^31 to (2^31)-1.
+long: 64-bit integer data type. Range: -2^63 to (2^63)-1.
+float: 32-bit floating-point data type. Sufficient for storing 6 to 7 decimal digits.
+double: 64-bit floating-point data type. Sufficient for storing 15 decimal digits.
+char: 16-bit Unicode character data type. Represents a single character.
+boolean: Represents true or false.
+Reference Data Types:
+
+Objects: Instances of classes.
+Arrays: Collections of elements of the same type.
+examples
+// Primitive data types
+int intValue;
+double doubleValue;
+char charValue;
+boolean boolValue;
+
+// Reference data types
+String stringValue; // String is a class in Java
+Object objValue; // Object is the superclass of all other classes
+int[] intArray; // Array of integers
