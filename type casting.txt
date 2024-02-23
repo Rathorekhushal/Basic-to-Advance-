@@ -1,0 +1,19 @@
+In Java, type casting refers to the process of converting a value of one data type to another. This is useful when you want to assign a value of one data type to a variable of another data type or when you want to perform operations that involve different data types.
+
+There are two types of type casting in Java:
+
+Implicit Casting (Widening Conversion):
+This happens automatically when a data type of smaller size is promoted to a data type of larger size.
+Implicit casting is considered safe because it doesn't result in loss of data or precision.
+
+For example, assigning an integer value to a double variable.
+int intValue = 10;
+double doubleValue = intValue; // Implicit casting from int to double
+
+Explicit Casting (Narrowing Conversion):
+This requires explicit syntax and is used when you want to convert a data type of larger size to a data type of smaller size.
+Explicit casting may result in loss of data or precision, and it's necessary to handle this carefully.
+For example, converting a double value to an integer by explicitly specifying the data type.
+double doubleValue = 10.5;
+int intValue = (int) doubleValue; // Explicit casting from double to int
+
