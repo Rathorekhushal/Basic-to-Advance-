@@ -1,0 +1,25 @@
+public class Typecasting {
+    public static void main(String[] args) {
+        // assigment operators
+        int a=90;
+        System.out.println(a);
+        a+=90;
+        // or
+        a=+90;
+        // uniarry operators
+        a++;   
+        // postfix a++
+        ++a;
+        // prefix ++a
+        
+        // arithematic operators
+        int j=9;
+        int k=89;
+        System.out.println(j+k);
+
+      // relational opeators 
+        for(int i=0;i<=7;i++){
+            System.out.println(i);
+        }
+    }
+}
