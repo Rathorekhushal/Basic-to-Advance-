@@ -1,0 +1,68 @@
+loops in java with examples
+The Java for loop is used to iterate a part of the program several times.
+ If the number of iteration is fixed, it is recommended to use for loop.
+
+There are three types of for loops in Java.
+In Java, loops are used to execute a block of code repeatedly as long as a specified condition is true.
+ There are several types of loops available:
+
+1. **for loop**: It repeats a block of code a fixed number of times.
+    ```java
+    for (initialization; condition; update) {
+        // code to be executed
+    }
+    ```
+    Example:
+    ```java
+    for (int i = 0; i < 5; i++) {
+        System.out.println("Iteration " + i);
+    }
+    ```
+
+2. **while loop**: It repeats a block of code as long as a specified condition is true.
+    ```java
+    while (condition) {
+        // code to be executed
+    }
+    ```
+    Example:
+    ```java
+    int count = 0;
+    while (count < 5) {
+        System.out.println("Count: " + count);
+        count++;
+    }
+    ```
+
+3. **do-while loop**: It is similar to the while loop, but it guarantees that the block of code is executed at least once, even if the condition is initially false.
+    ```java
+    do {
+        // code to be executed
+    } while (condition);
+    ```
+    Example:
+    ```java
+    int number = 5;
+    do {
+        System.out.println("Number: " + number);
+        number--;
+    } while (number > 0);
+    ```
+
+4. **for-each loop (Enhanced for loop)**: 
+It iterates over elements in an array or collection.
+    ```java
+    for (type variable : array/collection) {
+        // code to be executed
+    }
+    ```
+    Example:
+    ```java
+    int[] numbers = {1, 2, 3, 4, 5};
+    for (int num : numbers) {
+        System.out.println("Number: " + num);
+    }
+    ```
+
+Each type of loop has its own use case, and you can choose the one that best fits your specific scenario. 
+Loops are essential for iterating over arrays, processing collections, and performing repetitive tasks in Java programs.
