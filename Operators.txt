@@ -1,0 +1,49 @@
+Operators:
+In Java, operators are special symbols that are used to perform operations on variables and values. Here's a list of some common operators in Java:
+
+1. Arithmetic Operators:
+   - Addition: `+`
+   - Subtraction: `-`
+   - Multiplication: `*`
+   - Division: `/`
+   - Modulus (Remainder): `%`
+   - Increment: `++`
+   - Decrement: `--`
+
+2. Relational Operators:
+   - Equal to: `==`
+   - Not equal to: `!=`
+   - Greater than: `>`
+   - Less than: `<`
+   - Greater than or equal to: `>=`
+   - Less than or equal to: `<=`
+
+3. Logical Operators:
+   - Logical AND: `&&`
+   - Logical OR: `||`
+   - Logical NOT: `!`
+
+4. Assignment Operators:
+   - Assignment: `=`
+   - Addition assignment: `+=`
+   - Subtraction assignment: `-=`
+   - Multiplication assignment: `*=`
+   - Division assignment: `/=`
+   - Modulus assignment: `%=`
+
+5. Bitwise Operators:
+   - Bitwise AND: `&`
+   - Bitwise OR: `|`
+   - Bitwise XOR: `^`
+   - Bitwise Complement: `~`
+   - Left Shift: `<<`
+   - Right Shift: `>>`
+   - Unsigned Right Shift: `>>>`
+
+6. Conditional Operator (Ternary Operator):
+   - `? :`
+
+7. Instanceof Operator:
+   - `instanceof`
+
+These are the basic operators in Java, and they are used extensively in programming to perform various tasks like mathematical computations, logical operations, assignment, etc.
