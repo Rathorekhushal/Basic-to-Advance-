@@ -1,0 +1,40 @@
+conditions java 
+In programming, conditions are statements or expressions that evaluate to either true or false.
+ They are used to control the flow of a program by making decisions based on whether certain conditions are met or not.
+ Conditions are fundamental to implementing logic
+ and making programs more dynamic and responsive to different situations.
+here it the code of coditions 
+public class Main {
+    public static void main(String[] args) {
+        int number = 10;
+
+        // Example 1: if-else statement
+        if (number > 0) {
+            System.out.println("Number is positive");
+        } else {
+            System.out.println("Number is non-positive");
+        }
+
+        // Example 2: if-else if-else statement
+        if (number > 0) {
+            System.out.println("Number is positive");
+        } else if (number < 0) {
+            System.out.println("Number is negative");
+        } else {
+            System.out.println("Number is zero");
+        }
+
+        // Example 3: Nested if statement
+        int age = 20;
+        boolean isStudent = true;
+        if (age >= 18) {
+            if (isStudent) {
+                System.out.println("You are eligible for student discount");
+            } else {
+                System.out.println("You are eligible for regular ticket");
+            }
+        } else {
+            System.out.println("You are too young to purchase a ticket");
+        }
+    }
+}
