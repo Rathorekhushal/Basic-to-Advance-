@@ -1,0 +1,24 @@
+code of switch statement
+public class Switchstate {
+    public static void main(String[] args) {
+        // String Day="MON";
+        String Day="Monday";
+        switch(Day){
+            case  "Monday";
+            System.out.println("it is monday");
+            break;
+            case "Tuesday";
+            System.out.println("it is tuesday");
+            break;
+            case "wednesday";
+            System.out.println("it is tuesday");
+            break;
+            case "thursday";
+            System.out.println("it is thursday");
+            break;
+            case "friday"
+            System.out.println("it is friday");
+            break;
+        }
+    }
+}
