@@ -1,0 +1,20 @@
+continue statement:
+
+The continue statement is used to skip the remaining code within a loop's body 
+for the current iteration and proceed with the next iteration.
+for (int i = 0; i < 10; i++) {
+    if (i % 2 == 0) {
+        continue; // Skip even numbers
+    }
+    System.out.println(i); // Prints odd numbers only
+}
+break statement:
+The break statement is used to terminate the loop or switch statement immediately.
+When encountered, the break statement causes the control to exit the loop or
+ switch statement and continue with the next statement after the loop or switch.
+for (int i = 0; i < 10; i++) {
+    if (i == 5) {
+        break; // Exit the loop when i reaches 5
+    }
+    System.out.println(i); // Prints numbers from 0 to 4
+}
