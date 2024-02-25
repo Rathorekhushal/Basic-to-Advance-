@@ -1,0 +1,27 @@
+public class Studennt {
+    // variables datamembers
+    int studentId;
+    String studentName;
+    String studentCity;
+    // behaviours of the datamembers 
+    public void Study(){
+        System.out.println(studentName +"is studying");
+    }
+    public void Showfulldetail(){
+        System.out.println("Student id is "+ studentId );
+        System.out.println("student name is "+studentName);
+        System.out.println("student city is "+studentCity);
+    }
+    public static void main(String[] args) {
+        // now creating a object of the class
+        Studennt st1=new Studennt();
+        st1.studentName ="Ali";
+        st1.studentId=123;
+        st1.studentCity="Karachi";
+       st1.Study();
+       st1.Showfulldetail();
+    }
+    
+  
+
+}
