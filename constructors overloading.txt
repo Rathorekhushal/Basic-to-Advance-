@@ -1,0 +1,15 @@
+constructors overloading:
+The constructor overloading can be defined as the concept of having more than one constructor
+ with different parameters so that every constructor can perform a different task.
+public class Studennt {
+    // variables datamembers
+    int studentId;
+    String studentName;
+    String studentCity;
+    public Studennt(){
+        System.out.println("this is the non-pramertries constructors");
+    }
+    // constructors overloaded
+    public Studennt(int st1){
+         System.out.println("this is perm constructors");
+}
