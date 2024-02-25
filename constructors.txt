@@ -1,0 +1,20 @@
+constructors in java:
+
+constructors is used to initialize the data of object.
+auotomically  when we create onstructors .
+name of the constructors is same as class name
+constructors does not return any value .
+
+There are two types of constructors in Java:
+
+Default constructor (no-arg constructor)
+Parameterized constructor
+here is the code 
+public class Studennt {
+    // variables datamembers
+    int studentId;
+    String studentName;
+    String studentCity;
+    public Studennt(){
+        System.out.println("this is the non-pramertries constructors");
+    }
