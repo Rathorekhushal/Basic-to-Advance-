@@ -1,0 +1,9 @@
+inheritance in java:
+Inheritance is the most powerful feature of object-oriented programming. 
+It allows us to inherit the properties of one class into another class.
+Example:
+//inherits the properties of the Father class  
+class Child extends Father   
+{  
+//functionality   
+}  
