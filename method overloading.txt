@@ -1,0 +1,28 @@
+Methods overloading:
+If a class has multiple methods having same name but different in parameters,
+ it is known as Method Overloading.
+
+There are two ways to overload the method in java:
+By changing number of arguments
+By changing the data type
+examples:
+public class Studennt {
+    // variables datamembers
+    int studentId;
+    String studentName;
+    String studentCity;
+    public Studennt(){
+        System.out.println("this is the non-pramertries constructors");
+    }
+    // constructors overloaded
+    public Studennt(int st1){
+         System.out.println("this is perm constructors");
+    }
+    // behaviours of the datamembers 
+    public void Study(){
+        System.out.println(studentName +"is studying");
+    }
+    //here the method ovlerloading 
+    public void Study(float f){
+     System.out.println("here is the float value ");
+    }
