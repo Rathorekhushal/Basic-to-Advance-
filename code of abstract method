@@ -1,0 +1,20 @@
+ abstract public class Myclass {
+    // compete method
+    public void calculator(){
+        System.out.println("calculating results in java ");
+    }
+    // abstract method
+    abstract void lanchRocket(){
+        System.out.println("here is the abstrat method");
+    }
+}
+abstract class Mychild extends Myclass{
+         public void lanchRocket(){
+        System.out.println("my child class lanch rocket");
+         }
+         public static void main(String[] args) {
+            Mychild m1=new Mychild() {
+                m1.lanchRocket();
+            };
+         }
+}
