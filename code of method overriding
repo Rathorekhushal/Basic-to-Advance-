@@ -1,0 +1,10 @@
+public class Parentt {
+   public void eat(){
+    System.out.println("this is method of parent class");
+   } 
+}
+class  Child extends Parentt{
+public void eat(){
+    System.out.println("the child redefined the same method");
+}
+}
