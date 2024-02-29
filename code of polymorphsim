@@ -1,0 +1,14 @@
+public class Person {
+    public void PersonDetail(){
+        System.out.println("here is the person full detail");
+    }
+}
+class Employee extends Person{
+    public void PersonDetail(){
+        System.out.println("here is the method that show the deatail of person");
+    }
+    public static void main(String[] args) {
+        Person p1=new Person();
+        p1.PersonDetail();
+    }
+}
