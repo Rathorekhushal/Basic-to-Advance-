@@ -1,0 +1,15 @@
+Exception Hanlding in java:
+
+The Exception Handling in Java is one of the powerful mechanism to handle
+ the runtime errors so that the normal flow of the application can be 
+example:
+public class JavaExceptionExample{  
+  public static void main(String args[]){  
+   try{  
+      //code that may raise exception  
+      int data=100/0;  
+   }catch(ArithmeticException e){System.out.println(e);}  
+   //rest code of the program   
+   System.out.println("rest of the code...");  
+  }  
+}  
