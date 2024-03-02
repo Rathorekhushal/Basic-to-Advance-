@@ -1,0 +1,20 @@
+package Smallproject;
+
+import java.util.ArrayList;
+
+public class Learncode {
+    public static void main(String[] args) {
+        // arraylist is a type safe
+        ArrayList<String>name=new ArrayList<>();
+        name.add("mohit");
+        name.add("kamal");
+        name.add("vidna");
+        name.add("ali");
+        System.out.println(name.get(3));
+        // linklist is a untype safe
+        System.out.println(name.remove("kamal"));
+        System.out.println("size is "+ name.size());
+       System.out.println(name);
+    }
+    
+}
