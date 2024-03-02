@@ -1,0 +1,5 @@
+collection Framework:
+The Collection Framework in Java is a set of classes and interfaces 
+that provide a unified way to store, manage, and manipulate groups of objects.
+Interfaces: These define various types of collections and provide a standard way to interact with them.
+ Examples include List, Set, Queue, and Map interfaces.
