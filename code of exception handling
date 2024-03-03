@@ -1,0 +1,15 @@
+try:
+    # Code that may raise an exception
+    x = 10
+    y = 0
+    result = x / y
+    print("Result:", result)
+except ZeroDivisionError:
+    # Handling specific exception (division by zero)
+    print("Error: Division by zero!")
+except Exception as e:
+    # Handling any other exceptions
+    print("An error occurred:", e)
+finally:
+    # Cleanup code that runs whether an exception occurred or not
+    print("Cleanup code")
