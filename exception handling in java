@@ -1,0 +1,45 @@
+import java.io.BufferedReader;
+import java.io.FileReader;
+import java.io.IOException;
+
+public class ComplexExceptionHandling {
+    public static void main(String[] args) {
+        try {
+            String filename = "example.txt";
+            int result = readAndDivide(filename, 10);
+            System.out.println("Result: " + result);
+        } catch (IOException e) {
+            System.out.println("An IO exception occurred while reading the file: " + e.getMessage());
+        } catch (ArithmeticException e) {
+            System.out.println("An arithmetic exception occurred during division: " + e.getMessage());
+        } catch (Exception e) {
+            System.out.println("An unexpected exception occurred: " + e.getMessage());
+        } finally {
+            System.out.println("End of program.");
+        }
+    }
+
+    public static int readAndDivide(String filename, int divisor) throws IOException {
+        int result = 0;
+        BufferedReader reader = null;
+        try {
+            reader = new BufferedReader(new FileReader(filename));
+            String line;
+            while ((line = reader.readLine()) != null) {
+                result += Integer.parseInt(line);
+            }
+            if (result == 0) {
+                throw new ArithmeticException("Division by zero");
+            }
+            return result / divisor;
+        } finally {
+            if (reader != null) {
+                try {
+                    reader.close();
+                } catch (IOException e) {
+                    System.out.println("Error closing the file: " + e.getMessage());
+                }
+            }
+        }
+    }
+}
