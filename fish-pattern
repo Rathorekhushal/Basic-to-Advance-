@@ -1,0 +1,67 @@
+// import required classes  
+import java.util.Scanner;  
+  
+// create FishPatternExample class to print Fish Pattern  
+public class FishPatternExample {  
+  
+    // create drawFistPattern() method that will print Fish over n rows  
+    public static void drawFistPattern(int n) {  
+          
+        // declare and initialize string variables that help to print Fish pattern  
+        String sp1 = "";  
+        String st1 = "*", st2 = "";  
+          
+        // for generating space string  
+        for (int i = 0; i < n; ++i) {  
+            sp1 += ' ';  
+        }  
+          
+        // for printing upper, middle and lower part  
+        for (int j = 0; j < 2 * n + 1; ++j)  
+        {  
+          
+            // for printing upper part  
+            if (j < n) {  
+                System.out.print(sp1 + st1 + sp1 + sp1);  
+                System.out.println(st2);  
+                sp1 = sp1.substring(0, sp1.length() - 1);  
+                st1 += "**";  
+                st2 += "*";  
+            }  
+  
+            // for printing middle part  
+            if (j == n) {  
+                System.out.print(sp1 + st1 + sp1 + sp1);  
+                System.out.println(st2);  
+            }  
+  
+            // for printing lower part  
+            if (j > n) {  
+                sp1 += ' ';  
+                st1 = st1.substring(0, st1.length() - 1);  
+                st1 = st1.substring(0, st1.length() - 1);  
+                st2 = st2.substring(0, st2.length() - 1);  
+                System.out.print(sp1 + st1 + sp1 + sp1);  
+                System.out.println(st2);  
+            }  
+        }  
+    }  
+  
+    // main() method start  
+    public static void main(String args[]) {  
+        int n;  
+          
+        // create Scanner class object  
+        Scanner sc = new Scanner(System.in);  
+          
+        System.out.println("Enter value of N");  
+        // take input from user  
+        n = sc.nextInt();  
+          
+        // close Scanner class object  
+        sc.close();  
+          
+        // call drawFistPattern() method for printing Fish Pattern  
+        drawFistPattern(n);  
+    }  
+}  
